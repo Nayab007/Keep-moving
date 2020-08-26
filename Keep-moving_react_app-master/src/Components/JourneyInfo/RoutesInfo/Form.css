@@ -1,0 +1,114 @@
+.Form{
+        display:flex;
+        height: auto;
+        background-color: rgba(215, 255, 231, 0.9);
+        color: black;
+        flex-wrap: wrap;
+}
+
+.select{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    height:25px;
+    flex-wrap: wrap;
+}
+
+li{ 
+    list-style-type: none;
+    flex-wrap: wrap;
+
+}
+
+button{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+  
+    border-radius: 10%;
+    height: 25px;
+    width: 70px;
+}
+
+.fill-button {
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    border-radius: 10%;
+    width: 90px;
+    overflow:hidden;
+    position: relative;
+    height:30px;
+    border:1px solid #35495e;
+    text-align:center;
+    box-sizing:border-box;
+    color:#35495e;
+    text-decoration:none;
+    cursor: pointer;
+    line-height:28px;
+    font-family: 'arial';
+    border-radius: 4px;
+  }
+  .fill-button > span {
+    display:block;
+  }
+  .fill-button > .fill-button-hover:after, .fill-button > .fill-button-hover:before {
+    position:absolute;
+    top:0;
+    opacity:0;
+    display:block;
+    content:"";
+    width:0;
+    height:30px;
+  }
+  .fill-button > .fill-button-hover:after {
+    background-color:#35495e;
+    transform:skewX(45deg);
+    transform-origin:center center;
+    transition:all .35s, opacity .4s;
+    left:50%;
+  }
+  .fill-button .fill-button-hover:before {
+    background-color:#42b883;
+    transition:opacity 1s;
+  }
+  
+  .fill-button .fill-button-text {
+    z-index:1;
+    position:relative;
+    color:#35495e;
+    transition:color .35s;
+  }
+  .fill-button:hover .fill-button-text {
+    color:#42b883;
+  }
+  .fill-button .fill-button-hover:hover:after {
+    opacity:1;
+    left:2%;
+    width:95%;
+    transform:skewX(45deg);
+  }
+  .fill-button > .fill-button-hover:hover:before {
+    opacity: 1;
+    left: 0;
+    width:100%;
+  }
+
+/*
+select{
+    margin-left:10px;
+
+}
+
+.destId{
+    margin-left:25px;
+}
+
+button{
+    display: flex;
+    margin-left: 40%;
+    border-radius: 10%;
+    height: 25px;
+    width: 70px;
+}
+*/

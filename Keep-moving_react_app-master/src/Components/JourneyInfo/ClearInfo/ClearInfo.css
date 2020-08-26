@@ -1,0 +1,27 @@
+.ClearInfo{
+    display: flex; 
+    flex-direction: column;
+    width:100%;
+    height:auto;
+    background: rgba(215, 255, 231, 0.9);
+    
+}
+
+.ClearInfo h3{
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ClearInfo img{
+    display:flex;
+    margin-left:10%;
+
+}
+
+.ClearInfo h5,p {
+    color:black;
+    display:flex;
+    margin-left:20%;
+}
+

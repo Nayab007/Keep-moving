@@ -1,0 +1,14 @@
+
+.App {
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: rgba(215, 255, 231, 0.9);
+  min-height: 100vh;
+ 
+}
+
+a{
+  text-decoration: none;
+}

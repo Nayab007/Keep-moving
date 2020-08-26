@@ -1,0 +1,14 @@
+.Header{
+    display:flex;
+    display: row;
+    align-items:center;
+    justify-content: space-around;
+    width: 100%;
+    height:8vh;
+    background: #646464;
+    text-decoration: none;
+    color:#1ABC9C;
+       
+}
+
+

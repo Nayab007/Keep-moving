@@ -1,0 +1,104 @@
+.RoutesInfo{
+    width: 100%;
+    min-height: 60vh;
+    max-height: auto;
+    background-color: rgba(215, 255, 231, 0.9);
+    
+}
+
+.App-header>h2{
+    display:flex;
+    margin-left: 10%;
+
+}
+
+.RoutesDisplay {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+    
+    
+}
+
+.TimeDisplay {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 35%;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+li{
+    text-decoration: none;
+}
+
+.Circle {
+    height: 60px;
+    width: 60px;
+     background-color:#35495e;
+    border-radius: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    
+  }
+
+/*
+
+.Routes p {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    width: 100%;
+    height:10vh;
+    margin: 0;
+    padding: 8px;
+}
+button{
+    display: flex;
+    margin-left: 53%;
+    border-radius: 10%;
+    padding-bottom: -30%;
+}
+
+.RoutesTime h3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(215, 255, 231, 0.9);
+    padding:8px;
+}
+
+.RoutiesTimeB {
+    display:flex;
+    flex-direction: row;
+    padding-left: -5%;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+
+
+.Circle {
+    height: 110px;
+    width: 110px;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:red;
+    
+   
+   
+  }
+  */
+  
+
+

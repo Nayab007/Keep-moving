@@ -1,0 +1,198 @@
+
+.AlertPage{
+    width:100%;
+    height:auto;
+    background: rgba(215, 255, 231, 0.9);
+    padding: 0px;
+
+}
+
+.AlertHeading {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    height: 10vh;
+    background-color:#1ABC9C;
+    color: white;
+    padding:30px;
+ }
+
+.Alertbody {
+    position: relative;
+    text-align: center;
+    width:100%;
+    height:auto;
+    background: rgba(215, 255, 231, 0.9);
+}
+
+.Box1 {  
+    height:30vh;
+    width:60%;
+    margin:0 20% 0 20%;
+    border-radius:15px;
+    background-color: #DADADA;
+    }
+
+    .Box1>div{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding-top: 10px;
+        font-size: 14px;
+        flex-wrap: wrap;
+        
+    }
+
+
+
+  .Box2 {
+    display:flex;
+    height:8vh;
+    width:20%;
+    margin:0 40% 0 40%;
+    border-radius:15px;
+    background-color: #DADADA;
+    flex-wrap: wrap;
+     }
+
+     .Box2 p{
+      display:flex;
+      align-items: stretch;
+      justify-content: space-between;
+      margin-left: 20%;
+      font-size: 14px;
+      flex-wrap: wrap;
+     }
+
+     .Box2>p>span>i{
+      margin-left: 70%;
+     }
+
+  .Box3 {
+    display:flex;
+    flex-direction: column;
+    height:15vh;
+    width:60%;
+    margin:0 20% 0 20%;
+    border-radius:15px;
+    background-color: #DADADA;
+    flex-wrap: wrap;
+    }
+
+    .Box3 p{
+      font-size: 14px;
+      margin-left: 30%;
+      flex-wrap: wrap;
+    }
+
+  .Box4 {
+    display:flex;
+    height:15vh;
+    width:80%;
+    margin:0 10% 20px 10%;
+    border-radius:15px;
+    background-color: #DADADA;
+    flex-wrap: wrap;
+       
+  }
+
+  {
+    /*
+    .AlertPage {
+  width: 100%;
+  height: auto;
+  background: rgba(215, 255, 231, 0.9);
+  padding: 0px;
+}
+
+.AlertHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 10vh;
+  background-color: #1abc9c;
+  color: white;
+  padding: 30px;
+}
+
+.Alertbody {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background: rgba(215, 255, 231, 0.9);
+}
+
+.Box1 {
+  height: 35vh;
+  width: 60%;
+  margin: 0 20% 0 20%;
+  border-radius: 15px;
+  background-color: #dadada;
+}
+
+.Box1 p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 14px;
+}
+
+.Box2 {
+  display: flex;
+  height: 12vh;
+  width: 20%;
+  margin: 0 40% 0 40%;
+  border-radius: 15px;
+  background-color: #dadada;
+}
+
+.Box2 > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%
+}
+
+.Box3 {
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  width: 40%;
+  margin: 0 30% 0 30%;
+  border-radius: 15px;
+  background-color: #dadada;
+  font-size: 14px;
+}
+
+.Box4 {
+  display: flex;
+  height: 15vh;
+  width: 80%;
+  margin: 0 10% 20px 10%;
+  border-radius: 15px;
+  background-color: #dadada;
+}
+
+.Box4>p{
+margin-left:30%;
+}
+
+.OneTrip{
+  text-decoration: none;
+  list-style: none;
+}
+
+
+    */
+  }
+ 

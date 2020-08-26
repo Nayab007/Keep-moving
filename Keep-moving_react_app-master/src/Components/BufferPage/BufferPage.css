@@ -1,0 +1,9 @@
+.BufferPage{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    height: 79vh;
+    background: rgba(215, 255, 231, 0.9);}
+    
+    

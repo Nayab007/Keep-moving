@@ -1,0 +1,30 @@
+.RealtimeDelayed {
+    height: 79vh;
+    margin-top: 0px;
+    width: 26vw;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    background-color: #dadada;
+    overflow: auto;
+}
+
+.RealtimeDelayed>div {
+    padding: 0px;
+    margin: 0px;
+}
+
+.RealtimeDelayed>i {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.Hover>a {
+    color: red;
+    text-decoration: none;
+}
+
+.RealtimeDelayed :hover {
+    background-color: rgba(79, 189, 167, 0.5);
+    text-decoration: none;
+}

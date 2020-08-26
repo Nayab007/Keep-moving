@@ -1,0 +1,34 @@
+.DisruptionInfo{
+    display: flex; 
+    flex-direction: column;
+    width:100%;
+    height:auto;
+    background: rgba(215, 255, 231, 0.9);
+    
+}
+
+.DisruptionInfo h3{
+    color:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DisruptionInfo img{
+    display:flex;
+    margin-left:10%;
+
+}
+
+.DisruptionInfo h5{
+    color:red;
+    display:flex;
+    margin-left:20%;
+}
+
+.DisruptionInfo p{
+    color:black;
+    display:flex;
+    margin-left:20%;
+
+}
+
